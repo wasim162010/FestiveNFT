@@ -1,0 +1,24 @@
+{
+  "name": "settlemintfestivenft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-price": "0.0.6",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "web3": "^1.3.5"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/truffle-upgrades": "^1.5.0"
+  }
+}
