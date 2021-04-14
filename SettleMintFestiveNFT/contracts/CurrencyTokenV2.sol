@@ -21,8 +21,8 @@ contract CurrencyTokenV2 {
     );
 
     address owner;
-    string currentUSDValue="70.34";
 
+//if  usd is 78.23, then 78 will be stored in 'currencyWholePart' and 23 wl be stored in 'currencyDecimalPart'. It is like pegging CT to the current USD value.
     uint currencyWholePart;
     uint currencyDecimalPart;
 
